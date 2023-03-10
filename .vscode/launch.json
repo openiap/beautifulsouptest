@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // "program": "${file}",
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run main",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "GRPC_TRACE": "none",
+                "GRPC_VERBOSITY": "none",
+                "loglevel": "INFO",
+                "wiq": "pyagent",
+                "apiurl2": "grpc://testuser:testuser@grpc.demo.openiap.io:443",
+                "apiurl": "grpc://testuser:testuser@grpc.pc.openiap.io:50051"
+              }
+        }
+    ]
+}
