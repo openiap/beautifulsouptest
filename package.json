@@ -1,0 +1,15 @@
+{
+    "name": "beautifulsouptest",
+    "version": "0.0.1",
+    "description": "Python agent processing workitems using beautiful soup and Python",
+    "main": "main.py",
+    "author": "OpenIAP ApS / Allan Zimmermann",
+    "license": "MPL-2.0",
+    "openiap": {
+      "daemon": true
+    },
+    "scripts": {
+    },
+    "keywords": []
+  }
+  
