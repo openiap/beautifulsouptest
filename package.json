@@ -6,10 +6,10 @@
     "author": "OpenIAP ApS / Allan Zimmermann",
     "license": "MPL-2.0",
     "openiap": {
-      "daemon": true
+        "daemon": true,
+        "language": "python",
+        "chromium": false
     },
-    "scripts": {
-    },
+    "scripts": {},
     "keywords": []
-  }
-  
+}
